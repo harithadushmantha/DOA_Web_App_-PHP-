@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Joan", serif;
+  font-family: sans-serif ;
+}
+
+.header-section
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 61, 27, 0.7),rgba(47, 58, 100, 0.7)),url(./Images/main.jpg);
+    background-size: 1360px 640px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.headaboutus{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 61, 27, 0.7),rgba(47, 58, 100, 0.7)),url(./Images/aboutus.jpg);
+    background-size: 1360px 640px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.headourservices{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 61, 27, 0.7),rgba(47, 58, 100, 0.7)),url(./Images/ourservices.jpg);
+    background-size: 1360px 640px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.headcontactus{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 61, 27, 0.7),rgba(47, 58, 100, 0.7)),url(./Images/contactus.jpg);
+    background-size: 1360px 640px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container{
+    max-width: 100%;
+
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 85px;
+  margin-left: 50px;
+}
+
+.row1col2 {
+  color: rgb(34, 54, 26);
+  text-align: center;
+}
+.rowclass2 {
+  background-color: rgb(21, 44, 7);
+}
+
+.btn{
+    background-color: rgb(85, 158, 75);
+    color: black;
+}
+.nav-link{
+    font-size: 21px;
+    
+    color: white;
+}
+
+.nav-item :hover {
+   
+    opacity: 0.5;
+    border-radius: 25px;
+    background-color: rgb(242, 255, 240);
+}
+.row1col2{
+    color: rgb(13, 212, 46);
+}
+.login-button{
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(88, 138, 102);
+    text-decoration: none;
+    margin-top: 10px;
+}
+.login-button:hover{
+    opacity: 0.5;
+    border-radius: 15px;
+    background-color: rgb(242, 255, 240);
+}
+.r-1c-3{
+    text-align: right;
+}
+.loginlink{
+    text-decoration: none;
+    color: black;
+}
+.login-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 61, 27, 0.7),rgba(47, 58, 100, 0.7)),url(./Images/main.jpg);
+    background-size: 1360px 640px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.middle-column{
+    justify-content: center;
+}
+.login-h1{
+    color: white;
+    margin-top: -100px;
+}
+.login-form{
+    background-color: rgb(19, 59, 1) 1.5;
+    color: aliceblue;
+    width: 400px;
+    
+}
+.input-login{
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 0 10px;
+    height: 28px;
+    border-bottom: 1px solid white;
+}
+.input-login::placeholder{
+    color: aliceblue;
+}
+.input-login:focus::placeholder{
+    color: transparent;
+}
+.sign-in-btn{
+    width: 150px;
+    height: 40px;
+    background-color: aliceblue;
+    background: transparent;
+    font-size: 17px;
+    border-width: 1.5px;
+    color: white;
+    
+}
+.sign-in-btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.sign-in-btn-link{
+   text-decoration: none; 
+   color: white;
+}
+
+.sign-in-btn-link:hover{
+    color: black;
+}
+.signup-text{
+    text-decoration: none;
+    color: rgb(27, 185, 80);
+}
+.signup-text:hover
+{
+    color:rgb(27, 185, 80);
+}
+.home-icon{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown{
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    background: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+    padding: 0 10px;
+    height: 28px;
+    border-bottom: 1px solid white;
+    width: 214px;
+}
+.imgltr{
+    width: 380px;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding-left: 10px;
+    color:rgb(255, 255, 255) ;
+    
+}
+.imgltrbtn{
+   background: transparent;
+    padding: 10px 10px 10px 10px;
+    border: solid rgb(214, 211, 30);
+    border-width: 3px;
+    font-style: oblique;
+    color: rgb(214, 211, 30);
+}
+.imgltrbtn:hover{
+    background-color: rgba(214, 211, 30, 0.377);
+    color: black;
+}
+.findoutbtn{
+    background-color: rgb(214, 211, 30);
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.findoutbtn:hover{
+    background-color:rgb(187, 187, 187);
+    
+}
+.rowcl{
+    text-align: center; margin-top: 50px;
+}
+.ecoimg{
+    width: 420px;
+    height: 300px;
+}
+.footerp1{
+    margin-top: 20px;
+    color: aliceblue;
+}
+.mq-header{
+    background-color: rgba(3, 109, 21, 0.973)
+}
+.txtarea{
+    margin-top: 15px;
+    width: 200px;
+    height: 100px;
+    padding: 0 10px;
+}
+.testa{
+    color: aqua;
+    background-color: rgb(29, 63, 63);
+}
+.logoutbtn{
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(88, 138, 102);
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btndelete{
+    color: aqua;
+}
